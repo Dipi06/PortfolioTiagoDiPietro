@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bd2bb55d46.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href=# class="logo">Portfolio</a>
+        <button id="theme-toggle" aria-label="Alternar tema" title="Alternar tema" cursor="pointer">🌙</button>
+    </header>
+
+    <section class="main">
+        <div class="main-img">
+            <img src="fts/Fotoperfil.jpeg" alt="Foto de perfil">
+        
+    </header>
+        <div class="main-contenido">
+            <h1>Soy Tiago Di Pietro</h1>
+            <h3 class="sobre-mi">Sobre mi</h3>
+            <p>Estudiante de Sistemas con sólida base en lógica de programación y desarrollo de software. Orientado a la resolución de problemas complejos y a la creación de soluciones escalables utilizando JavaScript, HTML5, CSS3 y Java. Poseo conocimientos en gestión de bases de datos relacionales SQL y adaptación a nuevas tecnologías y metodologías ágiles. Busco mi primera experiencia formal para optimizar la experiencia del usuario final.</p>
+            <div>
+                <a class="redes" href=https://www.linkedin.com/in/tiago-di-pietro-a34827304/ ><i class="fab fa-linkedin-in"></i></a>
+                <a class="redes" href=https://www.instagram.com/tiagodipietro_/ ><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+</section>
+
+    <section class="contacto">
+        <div class="contacto-cont">
+            
+            <h2 id="contacto-title">Contacto</h2>
+            <h2>Si tenes alguna pregunta o queres ponerte en contacto, no dudes en completar el formulario a continuación:</h2>
+
+            <div id="contact-feedback"></div>
+            <form id="contact-form" class="contact-form" action="#" method="post" novalidate>
+                <div class="form">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+                </div>
+
+                <div class="form">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="tu@ejemplo.com" required />
+                </div>
+
+                <div class="form">
+                    <label for="telefono">Número</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="+54" inputmode="tel" />
+                </div>
+
+                <div class="form">
+                    <button type="submit" class="btn-submit">Enviar</button>
+                </div>
+            </form>
+
+            <div id="submissions"></div>
+        </div>
+    </section>
+    <script src="contact.js"></script>
+    <script src="theme.js"></script>
+</body>
+</html>
